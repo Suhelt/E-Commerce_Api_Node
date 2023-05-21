@@ -4,14 +4,22 @@
   "description": "This is an api for ecommerce app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@bambora/checkout-sdk-web": "^3.0.7",
     "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.0-alpha3",
     "dotenv": "^16.0.3",
     "ejs": "^3.1.9",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "jest": "^29.5.0",
+    "mysql2": "^3.3.1",
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.31.1",
+    "sequelize-cli": "^6.6.0"
   }
 }
